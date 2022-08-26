@@ -2,7 +2,6 @@ import React from 'react'
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native'
 import CheckBox from '@react-native-community/checkbox';
 
-
 function Task({title}){
     return (
         <View style={styles.item}>
